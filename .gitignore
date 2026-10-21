@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors / IDE
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# Python / tooling junk (docs repo should not need these)
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Secrets (never commit)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
